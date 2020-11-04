@@ -1,0 +1,10 @@
+<h2>List of TV shows</h2>
+
+<ul>
+    {{#each tvShow}}
+    <li>
+    <a href="tv_shows/{{this.tvid}}">{{this.name}}</a>
+    </li>
+    {{/each}}
+
+</ul>
